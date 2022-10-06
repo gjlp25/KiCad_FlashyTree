@@ -1,0 +1,402 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 61C2EBF8
+P 1500 3800
+F 0 "BT1" H 1618 3896 50  0000 L CNN
+F 1 "Battery_Cell" H 1618 3805 50  0000 L CNN
+F 2 "BC-2001:BC2001" V 1500 3860 50  0001 C CNN
+F 3 "~" V 1500 3860 50  0001 C CNN
+	1    1500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 61C30EA3
+P 2450 3650
+F 0 "D1" V 2489 3532 50  0000 R CNN
+F 1 "LED" V 2398 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2450 3650 50  0001 C CNN
+F 3 "~" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 61C31FFA
+P 2750 3650
+F 0 "D2" V 2789 3532 50  0000 R CNN
+F 1 "LED" V 2698 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 3650 50  0001 C CNN
+F 3 "~" H 2750 3650 50  0001 C CNN
+	1    2750 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61C322C5
+P 3050 3650
+F 0 "D3" V 3089 3532 50  0000 R CNN
+F 1 "LED" V 2998 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 3650 50  0001 C CNN
+F 3 "~" H 3050 3650 50  0001 C CNN
+	1    3050 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 61C3266A
+P 3350 3650
+F 0 "D4" V 3389 3532 50  0000 R CNN
+F 1 "LED" V 3298 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 3650 50  0001 C CNN
+F 3 "~" H 3350 3650 50  0001 C CNN
+	1    3350 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 61C36B54
+P 3650 3650
+F 0 "D5" V 3689 3532 50  0000 R CNN
+F 1 "LED" V 3598 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3650 3650 50  0001 C CNN
+F 3 "~" H 3650 3650 50  0001 C CNN
+	1    3650 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 61C36B5A
+P 3950 3650
+F 0 "D6" V 3989 3532 50  0000 R CNN
+F 1 "LED" V 3898 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 3650 50  0001 C CNN
+F 3 "~" H 3950 3650 50  0001 C CNN
+	1    3950 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 61C36B60
+P 4250 3650
+F 0 "D7" V 4289 3532 50  0000 R CNN
+F 1 "LED" V 4198 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 3650 50  0001 C CNN
+F 3 "~" H 4250 3650 50  0001 C CNN
+	1    4250 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 61C36B66
+P 4550 3650
+F 0 "D8" V 4589 3532 50  0000 R CNN
+F 1 "LED" V 4498 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4550 3650 50  0001 C CNN
+F 3 "~" H 4550 3650 50  0001 C CNN
+	1    4550 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 61C37418
+P 4850 3650
+F 0 "D9" V 4889 3532 50  0000 R CNN
+F 1 "LED" V 4798 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4850 3650 50  0001 C CNN
+F 3 "~" H 4850 3650 50  0001 C CNN
+	1    4850 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 61C3741E
+P 5150 3650
+F 0 "D10" V 5189 3532 50  0000 R CNN
+F 1 "LED" V 5098 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 3650 50  0001 C CNN
+F 3 "~" H 5150 3650 50  0001 C CNN
+	1    5150 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 61C37424
+P 5450 3650
+F 0 "D11" V 5489 3532 50  0000 R CNN
+F 1 "LED" V 5398 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5450 3650 50  0001 C CNN
+F 3 "~" H 5450 3650 50  0001 C CNN
+	1    5450 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 61C3742A
+P 5750 3650
+F 0 "D12" V 5789 3532 50  0000 R CNN
+F 1 "LED" V 5698 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 3650 50  0001 C CNN
+F 3 "~" H 5750 3650 50  0001 C CNN
+	1    5750 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61C376F8
+P 2450 3950
+F 0 "R1" H 2520 3996 50  0000 L CNN
+F 1 "1k" H 2520 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2380 3950 50  0001 C CNN
+F 3 "~" H 2450 3950 50  0001 C CNN
+	1    2450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61C37C09
+P 2750 3950
+F 0 "R2" H 2820 3996 50  0000 L CNN
+F 1 "1k" H 2820 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2680 3950 50  0001 C CNN
+F 3 "~" H 2750 3950 50  0001 C CNN
+	1    2750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 61C37F36
+P 3050 3950
+F 0 "R3" H 3120 3996 50  0000 L CNN
+F 1 "1k" H 3120 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 3950 50  0001 C CNN
+F 3 "~" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61C381D8
+P 3350 3950
+F 0 "R4" H 3420 3996 50  0000 L CNN
+F 1 "1k" H 3420 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3280 3950 50  0001 C CNN
+F 3 "~" H 3350 3950 50  0001 C CNN
+	1    3350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61C384B8
+P 3650 3950
+F 0 "R5" H 3720 3996 50  0000 L CNN
+F 1 "1k" H 3720 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3580 3950 50  0001 C CNN
+F 3 "~" H 3650 3950 50  0001 C CNN
+	1    3650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 61C386F2
+P 3950 3950
+F 0 "R6" H 4020 3996 50  0000 L CNN
+F 1 "1k" H 4020 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3880 3950 50  0001 C CNN
+F 3 "~" H 3950 3950 50  0001 C CNN
+	1    3950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 61C3898F
+P 4250 3950
+F 0 "R7" H 4320 3996 50  0000 L CNN
+F 1 "1k" H 4320 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4180 3950 50  0001 C CNN
+F 3 "~" H 4250 3950 50  0001 C CNN
+	1    4250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 61C38BF1
+P 4550 3950
+F 0 "R8" H 4620 3996 50  0000 L CNN
+F 1 "1k" H 4620 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4480 3950 50  0001 C CNN
+F 3 "~" H 4550 3950 50  0001 C CNN
+	1    4550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 61C38DEB
+P 4850 3950
+F 0 "R9" H 4920 3996 50  0000 L CNN
+F 1 "1k" H 4920 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4780 3950 50  0001 C CNN
+F 3 "~" H 4850 3950 50  0001 C CNN
+	1    4850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 61C390F5
+P 5150 3950
+F 0 "R10" H 5220 3996 50  0000 L CNN
+F 1 "1k" H 5220 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5080 3950 50  0001 C CNN
+F 3 "~" H 5150 3950 50  0001 C CNN
+	1    5150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 61C39343
+P 5450 3950
+F 0 "R11" H 5520 3996 50  0000 L CNN
+F 1 "1k" H 5520 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5380 3950 50  0001 C CNN
+F 3 "~" H 5450 3950 50  0001 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 61C3959D
+P 5750 3950
+F 0 "R12" H 5820 3996 50  0000 L CNN
+F 1 "1k" H 5820 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5680 3950 50  0001 C CNN
+F 3 "~" H 5750 3950 50  0001 C CNN
+	1    5750 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 3500
+Wire Wire Line
+	2450 3500 2750 3500
+Connection ~ 2750 3500
+Wire Wire Line
+	2750 3500 3050 3500
+Connection ~ 3050 3500
+Wire Wire Line
+	3050 3500 3350 3500
+Connection ~ 3350 3500
+Wire Wire Line
+	3350 3500 3650 3500
+Connection ~ 3650 3500
+Wire Wire Line
+	3650 3500 3950 3500
+Connection ~ 3950 3500
+Wire Wire Line
+	3950 3500 4250 3500
+Connection ~ 4250 3500
+Wire Wire Line
+	4250 3500 4550 3500
+Connection ~ 4550 3500
+Wire Wire Line
+	4550 3500 4850 3500
+Connection ~ 4850 3500
+Wire Wire Line
+	4850 3500 5150 3500
+Connection ~ 5150 3500
+Wire Wire Line
+	5150 3500 5450 3500
+Connection ~ 5450 3500
+Wire Wire Line
+	5450 3500 5750 3500
+Wire Wire Line
+	5750 4100 5450 4100
+Connection ~ 2750 4100
+Wire Wire Line
+	2750 4100 2450 4100
+Connection ~ 3050 4100
+Wire Wire Line
+	3050 4100 2750 4100
+Connection ~ 3350 4100
+Wire Wire Line
+	3350 4100 3050 4100
+Connection ~ 3650 4100
+Wire Wire Line
+	3650 4100 3350 4100
+Connection ~ 3950 4100
+Wire Wire Line
+	3950 4100 3650 4100
+Connection ~ 4250 4100
+Wire Wire Line
+	4250 4100 3950 4100
+Connection ~ 4550 4100
+Wire Wire Line
+	4550 4100 4250 4100
+Connection ~ 4850 4100
+Wire Wire Line
+	4850 4100 4550 4100
+Connection ~ 5150 4100
+Wire Wire Line
+	5150 4100 4850 4100
+Connection ~ 5450 4100
+Wire Wire Line
+	5450 4100 5150 4100
+Wire Wire Line
+	1500 4100 2450 4100
+Connection ~ 2450 4100
+$Comp
+L power:GND #PWR01
+U 1 1 61C3B949
+P 1500 4250
+F 0 "#PWR01" H 1500 4000 50  0001 C CNN
+F 1 "GND" H 1505 4077 50  0000 C CNN
+F 2 "" H 1500 4250 50  0001 C CNN
+F 3 "" H 1500 4250 50  0001 C CNN
+	1    1500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4250 1500 4100
+Wire Wire Line
+	1500 3400 1500 3600
+Wire Wire Line
+	1500 3900 1500 4100
+Connection ~ 1500 4100
+Wire Wire Line
+	1500 3400 1800 3400
+Wire Wire Line
+	1900 3400 1900 3500
+Wire Wire Line
+	1900 3500 2450 3500
+$Comp
+L BAT-HLD-001-TR:BAT-HLD-001-TR U1
+U 1 1 61C3A16A
+P 1800 3400
+F 0 "U1" V 2138 3072 50  0000 R CNN
+F 1 "BAT-HLD-001-TR" V 2047 3072 50  0000 R CNN
+F 2 "BATHLD001TR" H 2450 3500 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-31/603271.pdf" H 2450 3400 50  0001 L CNN
+F 4 "Coin Cell Battery Holders Linx CR2032 Battery Holder, Tape n Reel" H 2450 3300 50  0001 L CNN "Description"
+F 5 "4.2" H 2450 3200 50  0001 L CNN "Height"
+F 6 "Linx Technologies" H 2450 3100 50  0001 L CNN "Manufacturer_Name"
+F 7 "BAT-HLD-001-TR" H 2450 3000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "712-BAT-HLD-001-TR" H 2450 2900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/BAT-HLD-001-TR?qs=K5ta8V%252BWhtZh3MyWmkkmjQ%3D%3D" H 2450 2800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2450 2700 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2450 2600 50  0001 L CNN "Arrow Price/Stock"
+	1    1800 3400
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
