@@ -379,9 +379,7 @@
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "VIN",
-        "nets": [
-          "VIN"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
