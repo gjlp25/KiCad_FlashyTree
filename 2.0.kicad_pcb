@@ -1270,7 +1270,7 @@
     (property "Sheetname" "")
     (path "/ffb86135-b43f-4a42-9aa6-73aa7ba972a9")
     (attr through_hole)
-    (fp_text reference "J1" (at 0 0.575 65) (layer "B.SilkS")
+    (fp_text reference "J1" (at 0 0.575 65) (layer "B.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp e0c7ddff-8c90-465f-be62-21fb49b059fa)
     )
@@ -1319,11 +1319,11 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-000061c2ebf8")
     (attr smd)
-    (fp_text reference "BT1" (at 0 12.7 unlocked) (layer "B.SilkS")
+    (fp_text reference "BT1" (at 0 12.7 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a12b751e-ae7a-468c-af3d-31ed4d501b01)
     )
-    (fp_text value "Battery_Cell" (at 0 -12.7 unlocked) (layer "B.Fab")
+    (fp_text value "Battery_Cell" (at 0 -12.7 unlocked) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5099f397-6fe7-454f-899c-34e2b5f22ca7)
     )
@@ -3100,6 +3100,9 @@
   (gr_curve (pts (xy 199.271405 120.887412) (xy 199.072457 120.466116) (xy 198.913415 120.273029) (xy 197.985425 119.325916)) (layer "Edge.Cuts") (width 0.2) (tstamp ffa442c7-cbef-461f-8613-c211201cec06))
   (gr_text "{dblquote}Flashy Tree{dblquote} by Robert Postma" (at 184.77 93.44 -67) (layer "B.SilkS") (tstamp 4a050aee-cade-40be-b038-a7257a1ae0eb)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "JLCJLCJLCJLC" (at 168.3 120.89) (layer "B.SilkS") (tstamp 54c8435a-0b4b-47ec-b2ba-919fa8bf92bd)
+    (effects (font (size 0.9 0.9) (thickness 0.15)) (justify mirror))
   )
   (gr_text "https://github.com/gjlp25/KiCad_FlashyTree" (at 184.51 96.6 -67) (layer "B.SilkS") (tstamp ce6148e8-a3a6-4c49-93d1-7ac87e345497)
     (effects (font (size 0.75 0.75) (thickness 0.125)) (justify mirror))
